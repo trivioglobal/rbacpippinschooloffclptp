@@ -1,37 +1,41 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f9fafb;
+  --foreground: #111827;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: #ffffff;
-  --color-card-foreground: #171717;
+  --color-card-foreground: #111827;
   --color-popover: #ffffff;
-  --color-popover-foreground: #171717;
-  --color-primary: #3b82f6;
+  --color-popover-foreground: #111827;
+  --color-primary: #2563eb;
   --color-primary-foreground: #ffffff;
   --color-secondary: #f3f4f6;
-  --color-secondary-foreground: #171717;
+  --color-secondary-foreground: #111827;
   --color-muted: #f3f4f6;
   --color-muted-foreground: #6b7280;
-  --color-accent: #f3f4f6;
-  --color-accent-foreground: #171717;
-  --color-destructive: #ef4444;
+  --color-accent: #eff6ff;
+  --color-accent-foreground: #111827;
+  --color-destructive: #dc2626;
   --color-destructive-foreground: #ffffff;
   --color-border: #e5e7eb;
   --color-input: #e5e7eb;
-  --color-ring: #3b82f6;
+  --color-ring: #2563eb;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+* {
+  border-color: #e5e7eb;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background-color: #f9fafb !important;
+  color: #111827 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
